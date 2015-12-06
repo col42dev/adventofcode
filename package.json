@@ -11,5 +11,6 @@
   "dependencies": {
     "express": "^4.13.3"
     "underscore": "^1.8.3"
+    "md5": "^2.0.0"
   }
 }
