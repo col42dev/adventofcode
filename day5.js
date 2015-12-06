@@ -35,7 +35,6 @@ app.get('/day5.1', function (req, res) {
     };
 
     http.get( options, function(aocres) {
-
         var body = '';
 
         aocres.on('data', function(chunk){
@@ -43,28 +42,14 @@ app.get('/day5.1', function (req, res) {
         });
 
         aocres.on('end', function(){
-            //puzzle += body;
-            console.log('end');
-
-            //puzzle+= body;
-
             puzzle += '<br>';
 
-             var input = body.split('\n');
-             var totalsum = 0;
-
-
-             // http://underscorejs.org/#reduce
-            _.reduce(input, function (sum, v) {
-                    var verify = (/(.)\1/.test(v) && /([aeiou].*){3}/.test(v) && !/ab|cd|pq|xy/.test(v));
-                    console.log( verify);
-                    if (verify) {
-                        totalsum += 1;
-                    }
-                    //puzzle += sum + (/(.)\1/.test(v) && /([aeiou].*){3}/.test(v) && !/ab|cd|pq|xy/.test(v));
-                    
+            var input = body.split('\n');
+            var niceStringCount = _.reduce(input, function (memo, v) {
+                    return memo + ((/(.)\1/.test(v) && /([aeiou].*){3}/.test(v) && !/ab|cd|pq|xy/.test(v)) ? 1 : 0);
                 }, 0);
-            puzzle += "nice string count = " + totalsum; 
+            puzzle += "nice string count = " + niceStringCount;  // 255
+            console.log("nice string count = " + niceStringCount);
             res.send(puzzle);
         });
 
@@ -72,11 +57,7 @@ app.get('/day5.1', function (req, res) {
     .on('error', function(e) {
         puzzle += e;
     });
-
 });
-
-
-
 
 
 app.get('/day5.2', function (req, res) {
@@ -107,7 +88,6 @@ app.get('/day5.2', function (req, res) {
     };
 
     http.get( options, function(aocres) {
-
         var body = '';
 
         aocres.on('data', function(chunk){
@@ -123,9 +103,9 @@ app.get('/day5.2', function (req, res) {
                 }, 0);
 
             puzzle += "nice string count = " + niceStringCount + " out of " + input.length;  //answer: 55
+            console.log("nice string count = " + niceStringCount);
             res.send(puzzle);
         });
-
     })
     .on('error', function(e) {
         puzzle += e;
