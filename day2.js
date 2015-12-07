@@ -3,6 +3,7 @@ var express = require('express');
 var app = express();
 var md5 = require('md5');
 var http = require('http');
+var session = require("./session.js");
 
 
 app.get('/day2.1', function (req, res) {
@@ -103,7 +104,7 @@ How many total feet of ribbon should they order?<br>\
 		host : 'adventofcode.com',
 		port: 80,
 		path: '/day/2/input',
-		headers: {'Cookie':'session=53616c7465645f5f5508dbbdd598bc6a68a9d0913491e09359e933a225f1ae7f111c6990ccf11273cca87deff0d2213f'}
+		headers: {'Cookie':'session='+session.id()}
 	};
 
 	http.get( options, function(aocres) {
@@ -137,7 +138,7 @@ How many total feet of ribbon should they order?<br>\
 					totalRibbonLength += ribbonLength;
 				}
 			});
-			
+
 			puzzle += '<br>';
 			puzzle += 'totalRibbonLength:' + totalRibbonLength;
 

@@ -2,6 +2,7 @@ var express = require('express');
 var app = express();
 var http = require('http');
 var _  = require('underscore')
+var session = require("./session.js");
 
 
 
@@ -31,7 +32,7 @@ app.get('/day5.1', function (req, res) {
         host : 'adventofcode.com',
         port: 80,
         path: '/day/5/input',
-        headers: {'Cookie':'session=53616c7465645f5f5508dbbdd598bc6a68a9d0913491e09359e933a225f1ae7f111c6990ccf11273cca87deff0d2213f'}
+        headers: {'Cookie':'session='+session.id()}
     };
 
     http.get( options, function(aocres) {
@@ -84,7 +85,7 @@ app.get('/day5.2', function (req, res) {
         host : 'adventofcode.com',
         port: 80,
         path: '/day/5/input',
-        headers: {'Cookie':'session=53616c7465645f5f5508dbbdd598bc6a68a9d0913491e09359e933a225f1ae7f111c6990ccf11273cca87deff0d2213f'}
+        headers: {'Cookie':'session='+session.id()}
     };
 
     http.get( options, function(aocres) {

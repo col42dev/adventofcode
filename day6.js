@@ -3,6 +3,7 @@ var app = express();
 var http = require('http');
 var _  = require('underscore')
 
+var session = require("./session.js");
 
 
 app.get('/day6.1', function (req, res) {
@@ -30,7 +31,7 @@ app.get('/day6.1', function (req, res) {
         host : 'adventofcode.com',
         port: 80,
         path: '/day/6/input',
-        headers: {'Cookie':'session=53616c7465645f5f5508dbbdd598bc6a68a9d0913491e09359e933a225f1ae7f111c6990ccf11273cca87deff0d2213f'}
+        headers: {'Cookie':'session=' + session.id()}
     };
 
     http.get( options, function(aocres) {
@@ -133,7 +134,7 @@ toggle 0,0 through 999,999 would increase the total brightness by 2000000.<br>\
         host : 'adventofcode.com',
         port: 80,
         path: '/day/6/input',
-        headers: {'Cookie':'session=53616c7465645f5f5508dbbdd598bc6a68a9d0913491e09359e933a225f1ae7f111c6990ccf11273cca87deff0d2213f'}
+        headers: {'Cookie':'session=' + session.id()}
     };
 
     http.get( options, function(aocres) {
