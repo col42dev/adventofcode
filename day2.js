@@ -24,7 +24,7 @@ All numbers in the elves list are in feet. How many total square feet of wrappin
 		host : 'adventofcode.com',
 		port: 80,
 		path: '/day/2/input',
-		headers: {'Cookie':'session=53616c7465645f5f5508dbbdd598bc6a68a9d0913491e09359e933a225f1ae7f111c6990ccf11273cca87deff0d2213f'}
+		headers: {'Cookie':'session='+session.id()}
 	};
 
 	http.get( options, function(aocres) {
