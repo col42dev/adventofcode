@@ -1,0 +1,615 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"craft",
+				"craftableDefines"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"L",
+				"length"
+			],
+			[
+				"c",
+				"construction"
+			],
+			[
+				"WoodenBea",
+				"WoodenBeam1"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"cell",
+				"cellIndex"
+			],
+			[
+				"Crea",
+				"createTimer"
+			],
+			[
+				"h",
+				"harvestables"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
+				"get",
+				"getTaskPercentRemaining"
+			],
+			[
+				"gatherb",
+				"gatherableDefines"
+			],
+			[
+				"in",
+				"indexOf"
+			],
+			[
+				"harves",
+				"harvestableDefines"
+			],
+			[
+				"pr",
+				"proficiency"
+			],
+			[
+				"has",
+				"hasOwnProperty"
+			],
+			[
+				"up",
+				"updateRecipes"
+			],
+			[
+				"this",
+				"thisActionable"
+			],
+			[
+				"u",
+				"updateGatherables"
+			],
+			[
+				"a",
+				"activity"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"ga",
+				"gatherables"
+			],
+			[
+				"for",
+				"forEach"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "day7.js",
+			"settings":
+			{
+				"buffer_size": 10371,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "day5.txt",
+			"settings":
+			{
+				"buffer_size": 16999,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "markdown pre",
+		"selected_items":
+		[
+			[
+				"markdown pre",
+				"Markdown Preview: Preview in Browser"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 50.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/colinmoore/Dev/adventofcode"
+	],
+	"file_history":
+	[
+		"/Users/colinmoore/Dev/adventofcode/day7.js",
+		"/Users/colinmoore/Dev/adventofcode/day7.txt",
+		"/Users/colinmoore/Dev/adventofcode/package.json",
+		"/Users/colinmoore/Dev/adventofcode/day1.txt",
+		"/Users/colinmoore/Dev/adventofcode/day1.js",
+		"/Users/colinmoore/Dev/adventofcode/day6.js",
+		"/Users/colinmoore/Dev/adventofcode/.gitignore",
+		"/Users/colinmoore/Dev/adventofcode/sessionTemplate.js",
+		"/Users/colinmoore/Dev/adventofcode/session.js",
+		"/Users/colinmoore/Dev/adventofcode/day5.js",
+		"/Users/colinmoore/Dev/adventofcode/day4.js",
+		"/Users/colinmoore/Dev/adventofcode/day2.js",
+		"/Users/colinmoore/Dev/adventofcode/day3.js",
+		"/Users/colinmoore/Dev/adventofcode/app.js",
+		"/Users/colinmoore/Dev/adventofcode/server.js",
+		"/Users/colinmoore/Dev/adventofcode/day6.txt",
+		"/Users/colinmoore/Dev/adventofcode/day5.txt",
+		"/Users/colinmoore/Dev/adventofcode/day4.txt",
+		"/Users/colinmoore/Dev/adventofcode/day2.txt",
+		"/Users/colinmoore/Dev/adventofcode/day3.txt",
+		"/Users/colinmoore/Dev/go/src/github.com/col42dev/advent/day5/input.txt",
+		"/Users/colinmoore/Dev/go/src/github.com/col42dev/advent/day5/day5.go",
+		"/Users/colinmoore/Dev/go/src/github.com/col42dev/advent/day2/day2.go",
+		"/Users/colinmoore/Dev/go/src/github.com/col42dev/advent/day3/day3.go",
+		"/Users/colinmoore/Dev/go/src/github.com/col42dev/advent/day4/day4.go",
+		"/Users/colinmoore/Dev/go/src/github.com/col42dev/advent/day2/input.txt",
+		"/Users/colinmoore/Dev/go/src/github.com/col42dev/advent/day3/dirs.txt",
+		"/Users/colinmoore/Perforce/cmoore_MBP/SliceOfMine/Assets/StreamingAssets/craftingcontroller.js",
+		"/Users/colinmoore/Dev/dataminerbackfiller/dataminerbackfiller/backfiller/backfiller",
+		"/Users/colinmoore/Dev/dataminerbackfiller/dataminerbackfiller/node_modules/node-perforce/p4options.js",
+		"/Users/colinmoore/Dev/dataminerbackfiller/dataminerbackfiller/node_modules/node-perforce/index.js",
+		"/Users/colinmoore/Perforce/cmoore_MBP/SliceOfMine/Assets/StreamingAssets/crafting.js",
+		"/Users/colinmoore/Perforce/cmoore_MBP/SliceOfMine/Assets/StreamingAssets/crafting.html",
+		"/Users/colinmoore/Dev/crafty/app/views/pages/simvalues.html",
+		"/Users/colinmoore/Dev/crafty/app/views/pages/simworkers.html",
+		"/Users/colinmoore/Dev/crafty/package.json",
+		"/Users/colinmoore/Dev/crafty/app/index.html",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/map/worldmap.js",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/json/fssimrules.js",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/util/fsjsonloader.js",
+		"/Users/colinmoore/Dev/crafty/app/json/mapstate.json",
+		"/Users/colinmoore/Dev/crafty/app/json/rules.json",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/json/fssimworkers.js",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/json/fssimvalues.js",
+		"/Users/colinmoore/dev/crafty/app/scripts/services/json/fsmapstate.js",
+		"/Users/colinmoore/Dev/crafty/app/scripts/controllers/main.js",
+		"/Users/colinmoore/Dev/crafty/app/views/pages/mapstate.html",
+		"/Users/colinmoore/Dev/crafty/app/views/pages/rules.html",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/gdocs.js",
+		"/Users/colinmoore/Dev/dataminer/ember-cli-build.js",
+		"/Users/colinmoore/Dev/crafty/app/scripts/app.js",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/json/fssimstate.js",
+		"/Users/colinmoore/Dev/crafty/app/json/simvalues.json",
+		"/Users/colinmoore/Dev/crafty/app/json/state.json",
+		"/Users/colinmoore/Dev/crafty/app/json/worldmap.json",
+		"/Users/colinmoore/dev/crafty/app/views/pages/mapstate.html",
+		"/Users/colinmoore/Dev/crafty/app/views/pages/load.html",
+		"/Users/colinmoore/Perforce/cmoore_MBP/SliceOfMine/Assets/Prefabs/RoomPlacer.prefab",
+		"/Users/colinmoore/dev/crafty/app/views/pages/map.html",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/sim/fssimtasks.js",
+		"/Users/colinmoore/Dev/crafty/app/views/share/activetasks.html",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/json/state/fsbankable.js",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/json/state/fstask.js",
+		"/Users/colinmoore/Dev/crafty/app/views/share/craftables.html",
+		"/Users/colinmoore/Dev/crafty/app/views/share/tasks.html",
+		"/Users/colinmoore/Dev/crafty/app/views/pages/gdoc.html",
+		"/Users/colinmoore/Dev/crafty/app/views/share/goals.html",
+		"/Users/colinmoore/Perforce/cmoore_MBP/SliceOfMine/Assets/StreamingAssets/index.html",
+		"/Users/colinmoore/Perforce/cmoore_MBP/SliceOfMine/Assets/Scripts/Crafting/SimTimer.cs",
+		"/Users/colinmoore/Perforce/cmoore_MBP/SliceOfMine/Assets/StreamingAssets/{",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/sim/fssimbank.js",
+		"/Users/colinmoore/Desktop/restart",
+		"/Users/colinmoore/Desktop/norestart",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/map/worldmapedit.js",
+		"/Users/colinmoore/Dev/crafty/app/views/share/constructors.html",
+		"/Users/colinmoore/Dev/crafty/app/views/pages/craft.html",
+		"/Users/colinmoore/Dev/crafty/app/styles/main.css",
+		"/Users/colinmoore/dev/col42dev.github.io/_posts/2015-7-14-Linux MongoDB EC2 install.md",
+		"/Users/colinmoore/dev/col42dev.github.io/_posts/2015-7-13-Linux mEaN stack install.md",
+		"/Users/colinmoore/dev/col42dev.github.io/_posts/2015-8-8-markdown preview using SublimeText.md",
+		"/Users/colinmoore/dev/col42dev.github.io/_posts/2015-8-8-google sheets API.md",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/sim/fssimcrafting.js",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/json/state/fscraftable.js",
+		"/Users/colinmoore/Dev/crafty/app/views/share/worldmapgridedit.html",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/util/fscontextconsole.js",
+		"/Users/colinmoore/Dev/crafty/app/views/pages/gdocs.html",
+		"/Users/colinmoore/Dev/crafty/app/views/pages/worldmapedit.html",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/json/state/fscharacter.js",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/fsuieventhandler.js",
+		"/Users/colinmoore/Dev/crafty/app/views/share/bank.html",
+		"/Users/colinmoore/dev/crafty/app/views/pages/gdoc.html",
+		"/Users/colinmoore/Dev/crafty/app/json/rules2.json",
+		"/Users/colinmoore/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/colinmoore/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/colinmoore/Library/Application Support/Sublime Text 3/Packages/User/HTML.sublime-settings",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/sim/fssimmessagingchannel.js",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/sim/fssimobjectfactory.js",
+		"/Users/colinmoore/Dev/crafty/app/views/pages/worldmap.html",
+		"/Users/colinmoore/Dev/crafty/app/views/share/characterselect.html",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/json/state/fsharvestable.js",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/sim/fssimharvesting.js",
+		"/Users/colinmoore/Dev/crafty/app/views/share/worldmapgrid.html",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/ui/recipemodal.js",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/craftingmodal.js",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/recipemodal.js",
+		"/Users/colinmoore/dev/crafty/app/views/share/recipemodal.html",
+		"/Users/colinmoore/dev/crafty/app/scripts/services/craftingmodal.js",
+		"/Users/colinmoore/dev/crafty/app/views/share/craftingmodal.html",
+		"/Users/colinmoore/Dev/crafty/app/views/share/modaldemo.html",
+		"/Users/colinmoore/Dev/crafty/app/scripts/controllers/ModalDemoCtrl.js",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/sim/fssimrewards.js",
+		"/Users/colinmoore/Dev/crafty/app/scripts/controllers/about.js",
+		"/Users/colinmoore/dev/crafty/app/views/share/modaldemo.html",
+		"/Users/colinmoore/dev/crafty/bower.json",
+		"/Users/colinmoore/dev/crafty/app/views/share/activetasks.html",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/modalservice.js",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/util/stopwatch.js",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/util/serverSideTimers.js",
+		"/Users/colinmoore/dev/crafty/app/views/pages/timers.html",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/accounts.js",
+		"/Users/colinmoore/dev/crafty/app/scripts/services/sim/fssimgathering.js",
+		"/Users/colinmoore/dev/crafty/app/views/pages/db.html",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/util/backendTimers.js",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/util/timers.js",
+		"/Users/colinmoore/dev/crafty/app/views/pages/worldmap.html",
+		"/Users/colinmoore/dev/crafty/app/views/pages/craft.html",
+		"/Users/colinmoore/dev/crafty/app/views/pages/load.html",
+		"/Users/colinmoore/Dev/crafty/app/scripts/services/json/state/fsgatherable.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/colinmoore/Dev/crafty/app",
+			"/Users/colinmoore/Dev/crafty/bower_components",
+			"/Users/colinmoore/Dev/crafty/app",
+			"/Users/colinmoore/Dev/crafty/app/views",
+			"/Users/colinmoore/Dev/crafty/app/scripts",
+			"/Users/colinmoore/Dev/crafty"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"-> a",
+			"match",
+			"for(var craftableKey in jsondata.jsonRules.craftableDefines)",
+			"hasOwnProperty",
+			"jsondata.jsonRules.craftableDefines",
+			"craftableDefines",
+			"repopulateBank",
+			"-f",
+			"submit",
+			"revert",
+			"revertunchanged",
+			"submit",
+			"force",
+			"sync",
+			"jsonProgression",
+			"parse",
+			"jsonUnlockProgression",
+			"refCountLoaded",
+			"constructorDefines",
+			"window.alert",
+			"window.al",
+			"stateURL",
+			"maxWorkers",
+			"recipesimulationmaxworkers",
+			"maxWorkers",
+			"rulesJSON",
+			"harvestableDefines",
+			"IndexOf",
+			"Control",
+			"IndexOf",
+			"indexOf",
+			"map",
+			"mapStateURL",
+			"FunctionRoom1",
+			"FunctionR",
+			"outputpre",
+			"parse",
+			"ang",
+			"mapStateJSON",
+			"date",
+			"title",
+			"URL",
+			"createSimRules",
+			"angular.toJson",
+			"updateServerVersionWithData",
+			"version",
+			"level",
+			"MetalBar",
+			"Lock",
+			"Torc",
+			"Lock",
+			"Torch",
+			"Torch1",
+			"constructorDefines",
+			"validateJSON",
+			"WoodenTrap3",
+			"setTimeout",
+			"sondata.jsonState",
+			"sondata.jsonState.bank\n",
+			"bank",
+			"ctrller",
+			"ctr",
+			"ctrller",
+			"parseInt",
+			"= worker",
+			"Workbench3",
+			"workst",
+			"updateServerVersionWithData",
+			"serializedData",
+			"stateURL",
+			"metal",
+			"craftables",
+			"isCraftable",
+			"SimpleDe",
+			"eatingobje",
+			"FSSimBank",
+			"bank",
+			"Object.keys",
+			"stringify",
+			"tojson",
+			"WoodenBeam",
+			"Forge",
+			"selectedConstructorFilter",
+			"Work",
+			"work",
+			"orderRec",
+			"stateURL",
+			"angular.",
+			"FSTask",
+			"FSTas",
+			"characters",
+			"char",
+			"cellIndex",
+			"cat",
+			"cate",
+			"FSTask",
+			"hasSpareActivitySlot",
+			"task",
+			"name",
+			"new FSTask",
+			"thisService",
+			"pendingTasks",
+			"activeTasks",
+			"cell.tas",
+			"cell",
+			"createCellTask",
+			"new FSTask",
+			"hasCraftingIngredients",
+			"ingre",
+			"getWorkersArray",
+			"getInactiveCharacters",
+			"keyName",
+			"woode",
+			"woodenTa",
+			"\"Wood\"",
+			"qua",
+			"quan",
+			"hasToolAction",
+			"},\n",
+			"Granite",
+			"granite",
+			"FSSimState.characters",
+			"indexOf",
+			"FSSimState.characters",
+			"indexOf",
+			"FSSimMessagingChannel",
+			"onCompletedTaskHandler",
+			"activeTasks"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"consumableDefines",
+			"characters",
+			"FSJSONLoader",
+			"FSSimMessagingChannel",
+			"FSCraftable",
+			"FSBankable",
+			"duration",
+			"craftables",
+			"craftableDefines",
+			"FSBackpack",
+			"FSSimFactory",
+			"recipeDef",
+			"FSRecipeDef"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "day7.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10371,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4322,
+								4322
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 937.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "day5.txt",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 16999,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "adventofcode.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 279.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

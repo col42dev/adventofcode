@@ -2,7 +2,6 @@ var express = require('express');
 var app = express();
 var http = require('http');
 var _  = require('underscore')
-
 var session = require("./session.js");
 
 

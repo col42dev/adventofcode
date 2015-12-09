@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 var md5 = require('md5');
 var http = require('http');
-var _  = require('underscore')
+var _  = require('underscore');
 var session = require("./session.js");
 
 
