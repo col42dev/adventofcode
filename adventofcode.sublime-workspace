@@ -103,15 +103,15 @@
 			"file": "day7.js",
 			"settings":
 			{
-				"buffer_size": 10371,
+				"buffer_size": 7385,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "day5.txt",
+			"file": "day8.js",
 			"settings":
 			{
-				"buffer_size": 16999,
+				"buffer_size": 6050,
 				"line_ending": "Unix"
 			}
 		}
@@ -475,15 +475,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10371,
+						"buffer_size": 7385,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4322,
-								4322
+								176,
+								153
 							]
 						],
 						"settings":
@@ -492,8 +492,8 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 937.0,
+						"translation.x": 1.0,
+						"translation.y": 2354.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -501,11 +501,11 @@
 				},
 				{
 					"buffer": 1,
-					"file": "day5.txt",
+					"file": "day8.js",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 16999,
+						"buffer_size": 6050,
 						"regions":
 						{
 						},
@@ -518,10 +518,12 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1579.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,

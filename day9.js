@@ -55,31 +55,59 @@ app.get('/day9.1', function (req, res) {
 
             puzzle += '<br>';
 
-              var input = body.split('\n');
+              var input = body;
 
-            input.pop(); 
+       
 
+                var distances = {};
 
-             dict = _.reduce(input, function (memo, v) {
-                    
-                    if ( v.match(/(\S*) to (\S*) = (\d+)/)) {
-                        if ( !memo.hasOwnProperty(RegExp.$1)){
-                            memo[RegExp.$1] = {};
-                        }
+                input.trim().split('\n').forEach(item => {
+                  var match = item.match(/^(\w+) to (\w+) = (\d+)/);
+                  if (match) {
+                    distances[match[1]] = distances[match[1]] || {};
+                    distances[match[1]][match[2]] = parseInt(match[3]);
+                    distances[match[2]] = distances[match[2]] || {};
+                    distances[match[2]][match[1]] = parseInt(match[3]);
+                  }
+                });
 
-                        memo[RegExp.$1][RegExp.$2] = parseInt(RegExp.$3, 10);
+                //console.log( JSON.stringify(distances, 0, 2));
 
-                        if ( !memo.hasOwnProperty(RegExp.$2)){
-                            memo[RegExp.$2] = {};
-                        }
-                        memo[RegExp.$2][RegExp.$1] = parseInt(RegExp.$3, 10);
+                function permute(array) {
+                  if (array.length > 1) {
+                    var newArray = [];
+                    array.forEach( (item, index) => {
+                      permute(array.slice(0, index).concat(array.slice(index + 1))).forEach(newSubArray => {
+                        newArray.push([item].concat(newSubArray));
+                      });
+                    });
+                    return newArray;
+                  } else {
+                    return array;
+                  }
+                }
+
+                //console.log( JSON.stringify( permute(Object.keys(distances)), 0, 2));
+
+                var routes = permute(Object.keys(distances)).map(route => {
+                  return route.reduce((memo, location) => {
+                    return {
+                      prevLoc: location,
+                      totalDistance: memo.totalDistance + (memo.prevLoc ? distances[memo.prevLoc][location] : 0)
                     }
+                  }, {prevLoc: null, totalDistance: 0}).totalDistance;
+                });
 
-                    return memo;
-                }, {});
+                //console.log( JSON.stringify( routes, 0, 2));
 
-            console.log( JSON.stringify(dict, 0, 2));
+                var shortestRoute = routes.reduce((memo, route) => route < memo ? route : memo, 999999999999999);
+                var longestRoute = routes.reduce((memo, route) => route > memo ? route : memo, 0);
 
+                console.log('Part 1:', shortestRoute);
+                console.log('Part 2:', longestRoute);
+
+
+       
             res.send(puzzle);
         });
 
