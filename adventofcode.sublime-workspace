@@ -108,10 +108,34 @@
 			}
 		},
 		{
-			"file": "day8.js",
+			"file": "day6.js",
 			"settings":
 			{
-				"buffer_size": 6050,
+				"buffer_size": 9086,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "day9.js",
+			"settings":
+			{
+				"buffer_size": 4655,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "day10.js",
+			"settings":
+			{
+				"buffer_size": 1005,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "day11.js",
+			"settings":
+			{
+				"buffer_size": 1005,
 				"line_ending": "Unix"
 			}
 		}
@@ -153,7 +177,6 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/colinmoore/Dev/adventofcode"
 	],
 	"file_history":
 	[
@@ -308,6 +331,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"_.reduce",
 			"-> a",
 			"match",
 			"for(var craftableKey in jsondata.jsonRules.craftableDefines)",
@@ -434,8 +458,7 @@
 			"FSSimState.characters",
 			"indexOf",
 			"FSSimMessagingChannel",
-			"onCompletedTaskHandler",
-			"activeTasks"
+			"onCompletedTaskHandler"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -466,7 +489,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -482,8 +505,8 @@
 						"selection":
 						[
 							[
-								176,
-								153
+								5413,
+								5413
 							]
 						],
 						"settings":
@@ -492,20 +515,20 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 1.0,
-						"translation.y": 2354.0,
+						"translation.x": 25.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "day8.js",
+					"file": "day6.js",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 6050,
+						"buffer_size": 9086,
 						"regions":
 						{
 						},
@@ -522,11 +545,101 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
+						"translation.x": 21.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "day9.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4655,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2628,
+								2685
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
 						"translation.x": 0.0,
-						"translation.y": 1579.0,
+						"translation.y": 1057.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "day10.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1005,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1005
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "day11.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1005,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								329,
+								329
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
