@@ -1,37 +1,29 @@
-var _  = require('underscore');
 
-        var countRepeats = function( sequence, repeats) {
-            var myregex = new RegExp("\^\(\.\)\\1\{"+repeats+"\}");
-            if ( sequence.match(myregex)) {
-                return countRepeats(sequence, repeats+1);
-            } else {
-                return repeats-1;
-            }
-        };
+var _  = require('underscore')
+var fs = require('fs');
 
-        var countAndSay = function( sequence) {
-            return _.reduce( sequence.split(''), function(memo, thisChar, index) {
-                var thisoutput = '';
-                if ( this.lastChar !== thisChar) {
-                    thisoutput += (countRepeats(sequence.slice(index), 1)+1)+thisChar;
-                }
-                this.lastChar = thisChar;
 
-                return memo + thisoutput;
-            }, '', {lastChar:''});
-        };
+var input = JSON.parse(fs.readFileSync('day12.json', 'utf8'));
 
-        var output = _.reduce(_.range(50), function(memo) {
-            return countAndSay(memo);
-        }, '1321131112');
+var sumJSON = function( thisObject, recurseSum) {
+
+    return recurseSum + ( _.isArray(thisObject) || !_.contains(thisObject, 'red'))  
+            ?  _.reduce( thisObject, function( memo, thisValue) {
+                
+                return memo + { 
+                      'number' : function() { return thisValue;}, 
+                      'object' : sumJSON,
+                      'string' :  function() { return 0;}
+                    }[typeof(thisValue)]( thisValue, recurseSum);
+                }, 0)
+            : 0;
+        
+};
  
 
-console.log( 'length:'+output.length); 
+ console.log('result: ' + sumJSON(input, 0)); //111754, 65402
 
-//40: 492982
-//50: 6989950
-
-
+       
 
 
 
