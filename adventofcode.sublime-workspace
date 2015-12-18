@@ -148,11 +148,38 @@
 			}
 		},
 		{
-			"file": "day13.txt",
+			"file": "day14.js",
 			"settings":
 			{
-				"buffer_size": 3468,
+				"buffer_size": 1638,
+				"line_ending": "Unix",
+				"name": "day14.js"
+			}
+		},
+		{
+			"file": "day5.js",
+			"settings":
+			{
+				"buffer_size": 4659,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "day14.txt",
+			"settings":
+			{
+				"buffer_size": 655,
+				"line_ending": "Unix",
+				"name": "Vixen can fly 8 km/s for 8 seconds, but then must"
+			}
+		},
+		{
+			"file": "day14.html",
+			"settings":
+			{
+				"buffer_size": 4195,
+				"line_ending": "Unix",
+				"name": "<main>"
 			}
 		},
 		{
@@ -540,7 +567,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -570,7 +597,7 @@
 						"translation.y": 1021.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
@@ -600,7 +627,7 @@
 						"translation.y": 1162.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
@@ -630,7 +657,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -660,7 +687,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -690,7 +717,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -706,51 +733,142 @@
 						"selection":
 						[
 							[
-								457,
-								457
+								108,
+								1
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "day13.txt",
-					"semi_transient": true,
+					"file": "day14.js",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3468,
+						"buffer_size": 1638,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3037,
-								3041
+								910,
+								910
 							]
 						],
 						"settings":
 						{
+							"auto_name": "day14.js",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 53.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "day5.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4659,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 6.0,
+						"translation.y": 1093.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "day14.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 655,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								70
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Vixen can fly 8 km/s for 8 seconds, but then must",
 							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 312.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "day14.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4195,
+								4195
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<main>",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 10,
 					"file": "day12.json",
 					"semi_transient": false,
 					"settings":
@@ -775,11 +893,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 11,
 					"file": "day12.html",
 					"semi_transient": false,
 					"settings":
@@ -804,11 +922,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 12,
 					"file": "day8.js",
 					"semi_transient": false,
 					"settings":
@@ -834,11 +952,11 @@
 						"translation.y": 173.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 13,
 					"file": "day11.html",
 					"semi_transient": false,
 					"settings":
@@ -862,7 +980,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 13,
 					"type": "text"
 				}
 			]
